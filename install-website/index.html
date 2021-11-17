@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="images/logo-192.ico" type="image/x-icon">
+    <title>My Guard</title>
+</head>
+
+<body>
+    <!-- ******************* Nav Bar *******************-->
+    <nav class="navbar">
+        <div class="nav-img">
+            <img src="images/banner.png" class="align-top d-inline-block">
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li> <a href="#features"> Features </a> </li>
+                <li> <a href="apk/myguard.apk"> Download </a> </li>
+                <li> <a href="#secuirty">Security </a></li>
+                <li> <a href="#help">Help Center </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ******************* Home Page ******************* -->
+    <div class="home-page">
+        <div class="home-left">
+            <h2> Simple. Secure. <br> Reliable messaging. </h2>
+            <p> With my Guard, you'll get fast, simple, secure security system, available on phone all over the world.
+            </p>
+            <p class="home-dwn-btn">
+                <i class="fa fa-android"></i>
+                <a href="apk/myguard.apk">
+                    <span> Android </span>
+                </a>
+                <i class="fa fa-chevron-right"></i>
+            </p>
+        </div>
+        <div class="home-right">
+            <img src="images/mobile.png">
+        </div>
+    </div>
+    <!-- ******************* Features ******************* -->
+    <div class="feature-title subtitle" id="features">
+        <h2> Features </h2>
+    </div>
+    <div class="featueres">
+        <div class="feature-1">
+            <span class="material-icons">pending_actions</span>
+            <h2>Log History</h2>
+            <p> With myGuard, you can see all images captured by the myGuard camera among the system</p>
+            <ul>
+                <li> Image enlargement</li>
+                <li> Timestamp</li>
+                <li> Image Removal</li>
+            </ul>
+        </div>
+        <div class="feature-2">
+            <span class="material-icons">security</span>
+            <h2>Security By Default</h2>
+            <p> All the users privacy and personal information are protected by myGuard </p>
+            <ul>
+                <li> personalised account</li>
+                <li> covered by Amazon Web Service</li>
+            </ul>
+        </div>
+        <div class="feature-3">
+            <span class="material-icons">face</span>
+            <h2>Face Recognization</h2>
+            <p> Face are detected with the provided camera, the innovative face recognization is used to recognize the
+                potential crimrinal on the captured images</p>
+            <ul>
+                <li> alarm the user via email</li>
+                <li> tag with the detected user-id </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ******************* Security ******************* -->
+    <div class="security-title subtitle" id="secuirty">
+        <h2> Security </h2>
+    </div>
+    <div class="security-context">
+        <div class="sec-1">
+            <div class="sec-1-1">
+                <img src="images/aws_cognito.png">
+            </div>
+            <div class="sec-1-2">
+                <h3> User Authentication</h3>
+                <p> With Amazon Cognito, user can sign up and sign in their personal account easily on the application.
+                    All the personal information would be stored in a secure database provided by Amazon. User can trust
+                    the service and ensure the user can view the image with their own account.</p>
+            </div>
+        </div>
+        <div class="sec-2">
+            <div class="sec-2-1">
+                <h3> Face Recognization</h3>
+                <p> With Amazon Rekognition, you can easily detect when faces appear in images and videos and get
+                    attributes such as gender, age range, eyes open, glasses, facial hair for each. In video, you can
+                    also measure how these face attributes change over time, such as constructing a timeline of the
+                    emotions expressed by an actor.</p>
+            </div>
+            <div class="sec-2-2">
+                <img src="images/aws_face-detection.jpg">
+            </div>
+        </div>
+        <!-- ******************* Help Center ******************* -->
+        <div class="help-title subtitle" id="help">
+            <h2> Q&As </h2>
+        </div>
+        <div class="help-context">
+            <div class="q1">
+                <h4 class="qes"> Q1. What is My Guard ?</h4>
+                <p class="ans"> - My Guard is a mobile application coming with a security camera and security base
+                    station. User can install the camera and power-up the base station at a secure position. Using the
+                    application can help users to monitor their home, their office or even their own secret room. </p>
+            </div>
+            <div class="q2">
+                <h4 class="qes"> Q2. What will I get in the package?</h4>
+                <p class="ans"> - one Raspberry Pi (security base station), one or two Bluetooth sensor, one USB camera,
+                    and
+                    our fantstic mobile application (MyGuard) are all included</p>
+            </div>
+            <div class="q3">
+                <h4 class="qes"> Q3. How can I install My Guard?</h4>
+                <p class="ans"> - just scan the QR code on the package and you can press the Android icon to download
+                    the application directly on your mobile device. </p>
+            </div>
+            <div class="q4">
+                <h4 class="qes"> Q4. What do I do after receive the package?</h4>
+                <p class="ans"> - It is easy to set it up: plugin the Raspberry Pi into a power source via a mirco-sub
+                    cable, connect the usb camera with the Raspberry Pi via the usb port, attach the bluetooth motion
+                    sensor to your desierd location (works best on horizontal surfaces).Lastly, dowonload and
+                    register your account on the MyGuard application on your Android phone. <br> That's it; you can now
+                    ready to use your system!</p>
+            </div>
+            <div class="q5">
+                <h4 class="qes"> Q5. How does it work?</h4>
+                <p class="ans"> - After you've completed the setup, all you have to do now is turn on the Raspberry Pi's
+                    power source (it will take about 1-2 minutes for the Raspberry Pi to boot up), then turn on the
+                    Bluetooth motion sensor(s) using the on/off switch on the sensor (which should be in your desk
+                    drawer, locker, or wherever you decided to put it), and you're done; Now all you have to do is wait
+                    for someone to open your drawer*, and the USB camera will snap a photo of them and send it to the
+                    'myGuard' mobile app. </p>
+            </div>
+            <div class="q6">
+                <h4 class="qes"> Q6. What is the facial recognition, how can I use it?</h4>
+                <p class="ans"> - Following your purchase, we will send you a connection to the Amazon Web Services
+                    website along with login credentials to use the facial recognition feature. Simply log in and go to
+                    the 'Amazon S3' bucket (type 's3' into the website's search box and click on the first result). Open
+                    the 'add-to-collection' bucket and upload photo(s) of your face and/or any other individual who uses
+                    this system from your account (take 4-5 pictures of face for best results). The facial recognition
+                    feature will start operating the next time you connect in your Raspberry Pi for power. In your
+                    'myGuard' app, you'll now see photographs with the labels 'known' and 'unknown,' as well as the date
+                    and time they were taken. </p>
+            </div>
+            <div class="q7">
+                <h4 class="qes"> Q7. What does is it mean by ‘known’ and ‘unknown’ in the photos label?</h4>
+                <p class="ans"> - The images of the individual(s) you uploaded to the amazon web services website's
+                    'add-to-collection' bucket will now be referred to as 'known' person(s), hence the label beneath the
+                    picture you received in your phone. This simply means that if a 'known' person(s) unlocks your
+                    drawer*, you will not receive a push notification on your phone (you will still be able to see this
+                    picture in your app as it stores historical data for some time). Only individuals who are not
+                    recognised by the facial recognition software will receive a push notification on your phone
+                    (unauthorised people). </p>
+            </div>
+            <div class="q8">
+                <h4 class="qes"> Q8. How long will the battery last on my Bluetooth motion sensor?</h4>
+                <p class="ans"> - We'll throw in a new battery with your order, which should last roughly a month*. The
+                    battery may be quickly replaced and is readily available in your local supermarket or online, as
+                    well as being reasonably priced. If you're unsure which battery to get, check at the battery code on
+                    your Bluetooth motion sensor and search for that. </p>
+            </div>
+            <div class="q9">
+                <h4 class="qes"> Q9. Why is the micro-usb cable not provided in the box?</h4>
+                <p class="ans"> - The 'myGuard' system does not include a power adapter or a micro-usb cable as part of
+                    our efforts to meet our environmental goals.
+                    <br>
+                    We recommend using your existing micro-USB cable and power adapter, as long as they are compatible
+                    with this Raspberry Pi model. However, if you need new power adapters or cables, you may find them
+                    online or in your local store.
+                </p>
+            </div>
+
+        </div>
+        <!-- ******************* Footer ******************* -->
+        <div class="footer">
+            <div class="footer-bot">
+                <p> © 2021 MyGuard. All Rights Reserved. | Terms & Conditions | Privacy Policy </p>
+            </div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+type Sensor @model {
+  id: ID!
+  title: String!
+  status: SensorStatus!
+  rating: Int
+  content: String
+}
+
+enum SensorStatus {
+  DRAFT
+  PUBLISHED
+}

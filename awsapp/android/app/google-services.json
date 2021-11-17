@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659090485071",
+    "project_id": "awsapp-bf70a",
+    "storage_bucket": "awsapp-bf70a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659090485071:android:9c789d80560b87a2f45f3a",
+        "android_client_info": {
+          "package_name": "com.example.awsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659090485071-l6tg55qujfu3lfe3b1mnoh7pq9heps3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNTDzU_465gh4s21fZvt-Tm8CWqSfe0Wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659090485071-l6tg55qujfu3lfe3b1mnoh7pq9heps3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

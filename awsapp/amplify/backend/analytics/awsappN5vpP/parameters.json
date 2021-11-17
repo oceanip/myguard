@@ -1,0 +1,22 @@
+{
+    "appName": "awsappN5vpP",
+    "roleName": "pinpointLambdaRole5fcbea39",
+    "cloudformationPolicyName": "cloudformationPolicy5fcbea39",
+    "cloudWatchPolicyName": "cloudWatchPolicy5fcbea39",
+    "pinpointPolicyName": "pinpointPolicy5fcbea39",
+    "authPolicyName": "pinpoint_amplify_5fcbea39",
+    "unauthPolicyName": "pinpoint_amplify_5fcbea39",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "appId": "5f3e6536ae1a4811b5294cfd9b618f57"
+}
